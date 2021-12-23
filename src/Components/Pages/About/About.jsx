@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className={classes.aboutInfoDescription}>
                     <p className={classes.description1}>Iorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        labore et dolore fmagna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
                         maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                         sed do eiusmod.</p>
                     <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
