@@ -1,16 +1,161 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .App {
-  margin: 0 auto;
-  max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
 }
+
 .header {
-  background-color: black;
-  color: white;
-  height: 60px;
-  display: flex;
+    height: 60px;
+    display: flex;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.line-1 {
+    border-left: 2px solid #efefef;
+    height: 100vh;
+    position: absolute;
+    left: 14%;
+    top: 0;
+}
+
+.line-2 {
+    border-left: 2px solid #efefef;;
+    height: 100vh;
+    position: absolute;
+    left: 28%;
+    top: 0;
+}
+
+.line-3 {
+    border-left: 2px solid #efefef;
+    height: 100vh;
+    position: absolute;
+    left: 42%;
+    top: 0;
+}
+
+.line-4 {
+    border-left: 2px solid #efefef;
+    height: 100vh;
+    position: absolute;
+    left: 56%;
+    top: 0;
+}
+
+.line-5 {
+    border-left: 2px solid #efefef;
+    height: 100vh;
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+
+.line-6 {
+    border-left: 2px solid #efefef;
+    height: 100vh;
+    position: absolute;
+    left: 84%;
+    top: 0;
+}
+.line-1Service {
+    border-left: 2px solid #efefef;
+    height: 100vmax;
+    position: absolute;
+    left: 14%;
+    top: 0;
+}
+
+.line-2Service {
+    border-left: 2px solid #efefef;;
+    height: 100vmax;
+    position: absolute;
+    left: 28%;
+    top: 0;
+}
+
+.line-3Service {
+    border-left: 2px solid #efefef;
+    height: 100vmax;
+    position: absolute;
+    left: 42%;
+    top: 0;
+}
+
+.line-4Service {
+    border-left: 2px solid #efefef;
+    height: 100vmax;
+    position: absolute;
+    left: 56%;
+    top: 0;
+}
+
+.line-5Service {
+    border-left: 2px solid #efefef;
+    height: 100vmax;
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+
+.line-6Service {
+    border-left: 2px solid #efefef;
+    height: 100vmax;
+    position: absolute;
+    left: 84%;
+    top: 0;
+}
+.line-1About {
+    border-left: 2px solid #efefef;
+    height: 109vh;
+    position: absolute;
+    left: 14%;
+    top: 0;
+}
+
+.line-2About {
+    border-left: 2px solid #efefef;;
+    height: 109vh;
+    position: absolute;
+    left: 28%;
+    top: 0;
+}
+
+.line-3About {
+    border-left: 2px solid #efefef;
+    height: 109vh;
+    position: absolute;
+    left: 42%;
+    top: 0;
+}
+
+.line-4About {
+    border-left: 2px solid #efefef;
+    height: 109vh;
+    position: absolute;
+    left: 56%;
+    top: 0;
+}
+
+.line-5About {
+    border-left: 2px solid #efefef;
+    height: 109vh;
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+
+.line-6About {
+    border-left: 2px solid #efefef;
+    height: 109vh;
+    position: absolute;
+    left: 84%;
+    top: 0;
 }

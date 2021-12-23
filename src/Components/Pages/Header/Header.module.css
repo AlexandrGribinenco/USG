@@ -1,11 +1,22 @@
 .header {
-    background-color: black;
-    color: white;
-    height: 60px;
     display: flex;
+    margin-top: 78px;
+    margin-left: 16%;
 }
 .Navbar{
     display: flex;
     margin-left: auto;
     padding-right: 20px;
+}
+.logo{
+    color: #000000;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    position: relative;
 }

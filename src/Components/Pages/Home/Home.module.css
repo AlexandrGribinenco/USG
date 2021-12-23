@@ -1,0 +1,72 @@
+.text {
+    color: #444444;
+    font-family: "Libre Baskerville";
+    font-size: 98px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    padding-top: 28vh;
+    position: relative;
+    margin-left: 16%;
+}
+
+.copyRight {
+    display: flex;
+    margin-top: auto;
+    margin-left: 45%;
+    color: #7a7a7a;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.description {
+    color: #7a7a7a;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding-bottom: 19px;
+}
+
+.mainSevice {
+    display: flex;
+}
+
+.homeLogo {
+    position: relative;
+    bottom: 60px;
+    left: 46px;
+}
+
+.service {
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 13px;
+}
+
+.main {
+    display: flex;
+
+}

@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex: 0 1 115px;
+    height: 100vh;
+    background-color: #444444;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerSercive {
+    display: flex;
+    flex: 0 1 115px;
+    background-color: #444444;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footerAbout {
+    display: flex;
+    flex: 0 1 115px;
+    background-color: #444444;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 57px;
+    margin-bottom: 58px;
+}
+
+.email {
+    margin-top: auto;
+    margin-bottom: 58px;
+}
+
+.emailService {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.emailAbout {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.twitter {
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.fb {
+    margin-top: 57px;
+    margin-left: 9px;
+}

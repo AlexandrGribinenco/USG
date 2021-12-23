@@ -1,0 +1,35 @@
+.contactMain {
+    position: relative;
+    margin-left: 16%;
+}
+
+.mainContent {
+    display: flex;
+    margin-top: 5%;
+}
+
+.contactName {
+    color: #444444;
+    font-family: "Libre Baskerville";
+    font-size: 69px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 5%;
+}
+.logInfo{
+    margin-right: 9%;
+}
+.contactInfo {
+    max-width: 415px;
+    color: #444444;
+    font-family: "Libre Baskerville";
+    font-size: 38px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 47px;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 20%;
+}

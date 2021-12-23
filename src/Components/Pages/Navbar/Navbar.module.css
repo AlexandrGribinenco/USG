@@ -1,18 +1,38 @@
 
 .navItem {
-    padding-right: 15px;
+    padding-right: 40px;
 }
-.navItem a{
+
+.navItem a {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20.59px;
+    text-align: left;
     text-decoration: none;
 }
-.active{
-    color: red;
+
+.navItem a:hover {
+    color: black;
 }
-.inActive{
-    color: white;
+
+.active {
+    color: black;
 }
-.Navbar{
+
+.inActive {
+    color: #7a7a7a;
+}
+
+.Navbar {
     display: flex;
     margin-left: auto;
-    padding-right: 20px;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: 37%;
+    position: relative;
 }

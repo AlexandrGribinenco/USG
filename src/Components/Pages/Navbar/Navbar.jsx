@@ -9,27 +9,24 @@ import LanguageHandler from "../../LanguageHandler";
 function Navbar(props) {
     const setActive = ({isActive}) => (isActive ? classes.active : classes.inActive);
     return (
-        <div className={classes.Navbar}>
+        <div className={classes.main}>
             <nav className={classes.Navbar}>
                 <div className={classes.navItem}>
-                    <NavLink to="/home" className={setActive}> HOME</NavLink>
+                    <NavLink to="/" className={setActive}> Acasă</NavLink>
                 </div>
                 <div className={`${classes.navItem} ${classes.active}`}>
-                    <NavLink to="/about" className={setActive}> ABOUT</NavLink>
+                    <NavLink to="/service" className={setActive}> Servicii</NavLink>
                 </div>
                 <div className={classes.navItem}>
-                    <NavLink to="/service" className={setActive}> SERVICE</NavLink>
+                    <NavLink to="/about" className={setActive}> Despre noi</NavLink>
                 </div>
                 <div className={classes.navItem}>
-                    <NavLink to="/gallery" className={setActive}> GALLERY</NavLink>
-                </div>
-                <div className={classes.navItem}>
-                    <NavLink to="/contact" className={setActive}> CONTACT</NavLink>
+                    <NavLink to="/contact" className={setActive}> Contacte</NavLink>
                 </div>
             </nav>
-            <div>
+            {/*<div>
                 <LanguageHandler />
-            </div>
+            </div> */}
         </div>
 
 

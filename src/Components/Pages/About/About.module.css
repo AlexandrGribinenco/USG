@@ -1,0 +1,74 @@
+.main {
+    position: relative;
+    margin-left: 16%;
+}
+
+.aboutInfo {
+    display: flex;
+}
+
+.aboutInfoItem {
+    max-width: 480px;
+    color: #444444;
+    font-family: "Libre Baskerville";
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.aboutInfoItem span {
+    color: #8d7f72;
+}
+
+.aboutInfoDescription {
+    max-width: 700px;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.description1 {
+    margin-bottom: 4%;
+}
+
+.aboutName {
+    color: #444444;
+    font-family: "Libre Baskerville";
+    font-size: 75px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.footerBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+.copyRight {
+    display: flex;
+    margin-top: 3%;
+    color: #7a7a7a;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 4%;
+}
